@@ -14,7 +14,7 @@ import Portfolio from "./Components/Portfolio/Portfolio";
 let routers = createBrowserRouter([
     {
         path:'', element: <Layout/>,children:[
-            {path:'', element: <Home/>},
+            {index:true, element: <Home/>},
             {path:'about', element: <About/>},
             {path:'contact', element: <Contact/>},
             {path:'portfolio', element: <Portfolio/>},
